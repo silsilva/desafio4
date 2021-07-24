@@ -1,0 +1,70 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Josefin Slab", serif;
+}
+.inicio {
+  width: 250px;
+}
+.header__logo {
+  width: 100px;
+  height: 80px;
+}
+@media (min-width: 900px) {
+  .header__logo {
+    width: 197px;
+    height: 148px;
+  }
+}
+
+/*menu ppial*/
+.header__vinculos {
+  display: none;
+}
+@media (min-width: 900px) {
+  .header__vinculos {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 50px;
+  }
+}
+.header__label {
+  text-decoration: none;
+  color: #ffc107;
+  font-size: 24px;
+}
+
+/*boton de menu*/
+.header__menu-button {
+  display: flex;
+  height: 50px;
+}
+@media (min-width: 900px) {
+  .header__menu-button {
+    display: none;
+  }
+}
+.intro {
+}
+.header-main {
+}
+.body-intro {
+}
+.titulo {
+  text-align: center;
+  margin-bottom: 0;
+  color: #ffc107;
+  font-size: 48px;
+}
+.titulo2 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 32px;
+  color: #ffc107;
+}
+.header2 {
+  background-image: url(../imagenes/image\ 4.svg);
+  font-family: "Josefin Slab", serif;
+}

@@ -1,0 +1,117 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Josefin Slab", serif;
+}
+.ventana {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2c2c2c;
+  border: solid 3px;
+  display: none;
+  font-family: "Josefin Slab", serif;
+}
+@media (min-width: 990px) {
+  .abre-ventan {
+    display: none;
+  }
+}
+.ventana__cierra-ventan {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.header__vinculos {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.header__label {
+  color: #ffc107;
+  font-size: 60px;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inicio {
+  width: 250px;
+}
+.header__logo {
+  width: 100px;
+  height: 80px;
+}
+@media (min-width: 900px) {
+  .header__logo {
+    width: 197px;
+    height: 148px;
+  }
+}
+
+.abre-ventan {
+  display: flex;
+  height: 50px;
+  color: #ffc107;
+  font-family: "Josefin Slab", serif;
+  background: none;
+  margin-top: 30px;
+  margin-right: 10px;
+  border: none;
+  font: inherit;
+}
+@media (min-width: 900px) {
+  .abre-ventan {
+    display: none;
+  }
+}
+.intro {
+  border-bottom: solid #2c2c2c;
+}
+@media (min-width: 900px) {
+  .intro {
+    border-bottom: none;
+  }
+}
+.header-main {
+}
+.body-intro {
+  margin-bottom: 0;
+}
+.titulo {
+  text-align: center;
+  margin-bottom: 0;
+  color: #ffc107;
+  font-size: 48px;
+}
+.titulo2 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 32px;
+  color: #ffc107;
+}
+.header2 {
+  background-image: url(../imagenes/image\ 4.svg);
+  font-family: "Josefin Slab", serif;
+}
+.header__vinculo {
+  display: none;
+}
+@media (min-width: 900px) {
+  .header__vinculo {
+    display: flex;
+    justify-content: space-between;
+
+    width: 300px;
+    height: 50px;
+  }
+}
+.header__labe {
+  text-decoration: none;
+  color: #ffc107;
+  font-size: 24px;
+}

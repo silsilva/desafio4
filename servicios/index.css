@@ -1,0 +1,60 @@
+.servicio {
+  width: 375px;
+}
+@media (min-width: 900px) {
+  .servicio {
+    width: 100%;
+    display: block;
+  }
+}
+.servicio-title {
+  font-size: 38px;
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+.servicio-description {
+  font-size: 24px;
+  margin: 7px 0 0 0;
+  text-align: center;
+}
+.servicio-content {
+  margin-top: 20px;
+  padding: 40px;
+  display: grid;
+
+  gap: 40px;
+}
+@media (min-width: 960px) {
+  .servicio-content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.servicio-card {
+  border-radius: 4px;
+}
+
+.servicio-img {
+  display: block;
+
+  height: 200px;
+  width: 200px;
+
+  margin-left: 15%;
+}
+@media (min-width: 960px) {
+  .servicio-img {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+.servicio-card-content {
+  padding: 20px;
+}
+.servicio-card-title {
+  font-size: 30px;
+  margin: 0;
+}
+.servicio-card-text {
+  margin: 0;
+}

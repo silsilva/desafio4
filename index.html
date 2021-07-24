@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? family = Josefin + Slab & display = swap "
+      rel=" stylesheet "
+    />
+    <title>Home</title>
+    <script defer src="./contacto/index.js"></script>
+    <script defer src="./contacto/contacto.js"></script>
+    <script defer src="./header.js"></script>
+
+    <script defer src="./index.js"></script>
+    <script defer src="./footer/footer.js"></script>
+    <script defer src="./servicios/index.js"></script>
+    <script defer src="./presentacion/index.js"></script>
+
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./servicios/index.css" />
+    <link rel="stylesheet" href="./contacto/index.css" />
+    <link rel="stylesheet" href="./footer/footer.css" />
+    <link rel="stylesheet" href="./header/header.css" />
+    <link rel="stylesheet" href="./presentacion/index.css" />
+  </head>
+  <body>
+    <div class="main-conteiner">
+      <div class="intro" id="start">
+        <!--header-->
+        <header class="header2">
+          <div class="header-main"></div>
+        </header>
+      </div>
+    </div>
+
+    <!--presentacion-->
+
+    <section class="presentacion">
+      <div class="presentacion-content"></div>
+    </section>
+    <template id="presentacion-card-template">
+      <div class="presentacion-card">
+        <img src="../imagen.jpeg" class="presentacion-img" />
+        <div class="presentacion-card-content">
+          <h4 class="presentacion-card-title">Soy Silvana</h4>
+          <p class="presentacion-card-text">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique. Phasellus
+            placerat arcu elementum nisi ultrices cursus. Etiam sit amet aliquet
+            lacus. Integer ut iaculis augue, sit amet tincidunt ex. In eleifend
+            justo et sodales semper. Mauris nec tortor lectus. Curabitur nec
+            ultricies dolor
+          </p>
+        </div>
+      </div>
+    </template>
+
+    <!--servicio-->
+
+    <section class="servicio">
+      <h2 class="servicio-title">Mis Servicios</h2>
+
+      <div class="servicio-content"></div>
+    </section>
+    <template id="servicio-card-template">
+      <div class="servicio-card">
+        <img src="../imagen.jpeg" class="servicio-img" />
+        <div class="servicio-card-content">
+          <h4 class="servicio-card-title">Un trabajo que hice</h4>
+          <p class="servicio-card-text">
+            Te cuento un poco más sobre este trabajo y sobre cómo la rompi en
+            este proyecto, si el etxto se hace...
+          </p>
+        </div>
+      </div>
+    </template>
+    <!--contact-->
+    <section class="contact">
+      <div class="form-container"></div>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+      <div class="footer-container"></div>
+    </section>
+  </body>
+</html>
